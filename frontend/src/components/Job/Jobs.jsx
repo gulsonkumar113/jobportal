@@ -7,6 +7,8 @@ const Jobs = () => {
   const [jobs, setJobs] = useState([]);
   const { isAuthorized } = useContext(Context);
   const navigateTo = useNavigate();
+
+  
   useEffect(() => {
     try {
       axios
